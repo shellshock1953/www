@@ -1,0 +1,59 @@
+html {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	padding: 0px;
+	margin: 0px;
+}
+.fixed {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	position: fixed;
+	height: 30px;
+	text-align: center;
+}
+
+.fixed.header {
+	position: fixed;
+	background-color: #009999;
+	top 0px;
+}
+
+#navbar ul {
+	padding: 0px;
+	top: 0px;
+	width: 100%;
+	list-style-type: none;
+}
+
+#navbar ul li {
+	display: inline;
+	color: black;
+}
+
+.main {
+	margin: 50px 10px 10px 10px;
+	display: inline-flex;
+	width: 97%;
+}
+
+.page {
+	background-color: green;
+	height: 90%;
+	float: right;
+	margin: 10px;
+}
+
+#left {
+	float: left;
+	width: 80%;
+}
+
+#right {
+	float: right;
+	height: 500px;
+	width: 350px;
+}
+
